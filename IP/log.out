@@ -1,0 +1,22 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/gen2/ds_genai/IP']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [2706088] using WatchFiles
+/gen2/lib/python3.12/site-packages/diffusers/models/transformers/transformer_2d.py:34: FutureWarning: `Transformer2DModelOutput` is deprecated and will be removed in version 1.0.0. Importing `Transformer2DModelOutput` from `diffusers.models.transformer_2d` is deprecated and this will be removed in a future version. Please use `from diffusers.models.modeling_outputs import Transformer2DModelOutput`, instead.
+  deprecate("Transformer2DModelOutput", "1.0.0", deprecation_message)
+/gen2/lib/python3.12/site-packages/pydantic/_internal/_fields.py:160: UserWarning: Field "model_choice" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/gen2/ds_genai/IP/modules/generator.py:15: RuntimeWarning: coroutine 'mem_usage' was never awaited
+  api.mem_usage()
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+Loading pipeline components...:   0%|          | 0/5 [00:00<?, ?it/s]Loading pipeline components...:  40%|████      | 2/5 [00:00<00:00, 10.94it/s]Loading pipeline components...:  80%|████████  | 4/5 [00:00<00:00, 11.56it/s]Loading pipeline components...: 100%|██████████| 5/5 [00:00<00:00, 11.35it/s]
+/gen2/ds_genai/IP/modules/generator.py:17: RuntimeWarning: coroutine 'mem_usage' was never awaited
+  api.mem_usage()
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+INFO:     Started server process [2706091]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+/usr/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
