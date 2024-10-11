@@ -1,0 +1,4 @@
+{
+    "fixed_prompt" : "realistic, best quality, masterpiece,",
+    "fixed_neg_prompt" : "worst, bad quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry, ugly,"
+}
